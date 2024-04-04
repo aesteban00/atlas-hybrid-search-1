@@ -44,8 +44,7 @@ If not using the sample embedded data provided by MongoDB you will need to use d
 Once you have set you `.env` file and `config.mjs` you will need to start the app. This hosts a local embedding API that uses the model provider corresponding to the supplied API key.
 
 ### Angel: if ERROR "Collecting page data  ..ReferenceError: document is not defined" in lottie.js
-check error here: https://github.com/airbnb/lottie-web/issues/2739
-fix it using node v 20.10.0 LTS (https://stackoverflow.com/questions/44803721/how-to-brew-install-specific-version-of-node) 
+Check error (https://github.com/airbnb/lottie-web/issues/2739) and fix it using node v 20.10.0 LTS (https://stackoverflow.com/questions/44803721/how-to-brew-install-specific-version-of-node) 
 
 Run to fix
 ```
