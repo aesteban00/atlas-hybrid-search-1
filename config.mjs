@@ -5,7 +5,7 @@ const schema = {
     titleField : "title",
     imageField : "poster",
     // vector search field
-    vectorField : "plot_embedding",
+    vectorField : "plot_embedding_hf_openai",
     // source for embedding when using embed-data.mjs
     vectorSourceField: "plot"
 }
